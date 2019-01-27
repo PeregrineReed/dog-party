@@ -1,3 +1,71 @@
 html {
-  font-family: Verdana;
+  font-family: Tahoma;
+}
+
+body {
+  margin: 0px 25px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+nav {
+  background: LightBlue;
+  color: White;
+  border-top: 1px Black solid;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../images/park.jpg");
+  background-size: cover;
+  height: 70vh;
+}
+
+h1, h2, h4 {
+  font-weight: normal;
+  text-align: center;
+}
+
+section {
+  display: grid;
+  grid-template: auto / auto auto auto;
+}
+
+article {
+
+}
+
+p {
+  text-align: center;
+}
+
+footer {
+  height: 25vh;
+  background: CadetBlue;
+  color: White;
+}
+
+.dogs {
+  border-radius: 100%;
+  border: 3px CadetBlue solid;
+  margin: 10px;
+}
+
+.dog-info {
+  color: CadetBlue;
+  border: 3px CadetBlue solid;
+  background: White;
+}
+
+.external {
+  background: transparent;
+  border: transparent;
+}
+
+#dog-icon {
+  margin-top: 5px;
+  margin-left: 10px;
+  height: 25px;
 }

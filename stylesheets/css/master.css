@@ -1,5 +1,5 @@
 html {
-  font-family: Tahoma;
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -34,7 +34,7 @@ section {
 }
 
 article {
-
+  padding: 20px;
 }
 
 p {
@@ -43,19 +43,26 @@ p {
 
 footer {
   height: 25vh;
-  background: CadetBlue;
+  background: SteelBlue;
   color: White;
+}
+
+.nav-buttons {
+  color: White;
+  border: transparent;
+  background: transparent;
 }
 
 .dogs {
   border-radius: 100%;
-  border: 3px CadetBlue solid;
+  border: 3px SteelBlue solid;
   margin: 10px;
+  height: 220px;
 }
 
 .dog-info {
-  color: CadetBlue;
-  border: 3px CadetBlue solid;
+  color: SteelBlue;
+  border: 3px SteelBlue solid;
   background: White;
 }
 
@@ -68,4 +75,8 @@ footer {
   margin-top: 5px;
   margin-left: 10px;
   height: 25px;
+}
+
+#dog-1 {
+  height: 300px;
 }

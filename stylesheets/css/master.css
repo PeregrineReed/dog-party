@@ -31,6 +31,7 @@ h1, h2, h4 {
 section {
   display: grid;
   grid-template: auto / auto auto auto;
+  margin-bottom: 3rem;
 }
 
 article {
@@ -41,16 +42,28 @@ p {
   text-align: center;
 }
 
+div {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   height: 25vh;
   background: SteelBlue;
   color: White;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-container {
+  justify-content: flex-end;
 }
 
 .nav-buttons {
   color: White;
   border: transparent;
   background: transparent;
+
 }
 
 .dogs {
@@ -58,9 +71,19 @@ footer {
   border: 3px SteelBlue solid;
   margin: 10px;
   height: 220px;
+  weight: 220px;
+}
+
+.under-dog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .dog-info {
+  display: inline;
+  padding: 5px;
+  font-size: 25px;
   color: SteelBlue;
   border: 3px SteelBlue solid;
   background: White;
@@ -79,4 +102,9 @@ footer {
 
 #dog-1 {
   height: 300px;
+}
+
+#top-dog {
+  display: flex;
+  flex-direction: column;
 }
